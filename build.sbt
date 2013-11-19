@@ -13,6 +13,7 @@ libraryDependencies ++= Seq(
   "io.spray" % "spray-http" % "1.2-RC3",
   "io.spray" % "spray-httpx" % "1.2-RC3",
   "io.spray" % "spray-routing" % "1.2-RC3",
+  "io.spray" %%  "spray-json" % "1.2.5",
   "io.spray" % "spray-testkit" % "1.2-RC3" % "test",
   "com.typesafe.akka" %% "akka-testkit" % "2.2.3" % "test",
   "org.scalatest" %% "scalatest" % "2.0.RC2" % "test"
